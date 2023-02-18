@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <form action="/confirm-order" method="post">
+            <p><%= order_name %> </p>
+            <p><%= order_price %> </p>
+            <input type="text" name="upi">
+            <input type="text" class="editing-input" name="order_price_deduction" value="<%= order_price %>">
+            <button type="submit">CONFIRM</button>
+        </form>
+    </body>
+</html>

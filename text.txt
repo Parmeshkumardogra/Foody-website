@@ -1,0 +1,50 @@
+db.burger.insertOne({
+    _id:1,
+    name:"Single cheese pizza",
+    price:59,
+    address:"/images/pizza/img1.jpg"
+})
+db.burger.insertOne({
+    _id:2,
+    name:"Double Allo tiki burger",
+    price:89,
+    
+})
+db.burger.insertOne({
+    _id:3,
+    name:"Single pattie Chicken burger",
+    price:129,
+   
+})
+db.burger.insertOne({
+    _id:4,
+    name:"Double pattie Chicken burger",
+    price:169,
+    
+})
+
+db.burger.insertOne({
+    _id:5,
+    name:"Panner Single pattie burger",
+    price:99,
+    
+})
+
+db.burger.insertOne({
+    _id:6,
+    name:"Panner Double pattie burger",
+    price:139,
+
+})
+
+db.burger.insertOne({
+    _id:7,
+    name:"French fries Burger",
+    price:79,
+})
+
+db.burger.insertOne({
+    _id:8,
+    name:"Large Chicken burger pack",
+    price:209,
+})

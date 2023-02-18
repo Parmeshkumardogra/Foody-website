@@ -1,0 +1,170 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.section-color{
+    display: inline-block;
+    background-color: #FF1E1E;
+}
+.section-color div{
+    display: inline-block;
+}
+.get-main-color{
+    background-color: #ABD9FF;
+}
+.get-signup-color{
+    background-color: darkorange;
+}
+#header{
+
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+#header p{
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 3px;
+    margin-bottom: 10px;
+    border-style: solid;
+}
+#header ul li{
+    list-style-type: none;
+    position: relative;
+}
+#header ul div{
+    display: inline-block;
+}
+.decrease-size{
+    display: inline-block;
+    position:absolute;
+    right: 4%;
+}
+#header ul li a{
+    color: aliceblue;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#header .decrease-size ul div li a:hover{
+    color: aqua;
+}
+#header .dropdown-content{
+    display: none;
+}
+#header li:hover .dropdown-content{
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+}
+#header .dropdown-content a{
+    display: block;
+}
+
+.login-form{
+    display: inline-block;
+    position: relative;
+    left: 43%;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 200px;
+    
+}
+.giving-line-a-margin{
+    margin-bottom: 5px;
+}
+
+.getting-center{
+    text-align: center;
+    padding-right: 60px;
+}
+.getting-center-new{
+    text-align: center;
+}
+
+.margin-left{
+    display: inline-block;
+}
+
+.main-part1-img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    left: 0px;
+}
+.pizza-inline{
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+.editing-input{
+    width: 0;
+    height: 0;
+    display: none;
+}
+.remove-text-decoration{
+    text-decoration: none;
+    margin-left: 17px;
+    color:black;
+}
+.remove-text-decoration center p{
+    margin-top: 0px;
+}
+
+.bttn-clr{
+    background-color: #25316D;
+    color: white;
+    border-radius:5px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.bttn-clr-signup{
+    background-color: #25316D;
+    color: white;
+    border-radius:5px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.bttn-clr:hover{
+   background-color: #FF1E1E;
+}
+.bttn-clr-signup:hover{
+    background-color:violet
+}
+.signup-link{
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.item-image-size{
+    width: 200px;
+    height: 150px;
+}
+.size-of-pizza{
+    width:100px;
+    height: 100px;
+}
+
+.under-section-div1 a{
+    display: inline-block;
+}
+.under-section-div1 a:hover{
+    border-style: solid;
+}
+.addtocart{
+    float: left;
+    margin-right: 30px;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+}
+.footer p{
+    color: aliceblue;
+    text-align: center;
+}
